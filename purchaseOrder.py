@@ -3,14 +3,14 @@
 import pandas as pd
 
 #make email text from template
-def makeEmail(contact, email):
+def makeEmail(contact, email, yourName):
 
     template = """Hi %s,
 Please send any available items in the attached spreadsheet. It is also ok to backorder any items on the spreadsheet that are not available, but don't add to existing backorders.
 Thanks!
-Bret
+%s
 
-%s""" % (contact, email)
+%s""" % (contact, email, yourName)
 
     return template
 
@@ -41,7 +41,8 @@ def makeSeperate(vendors, orderbyVendor, modelType, exportPath, runCount):
             email = "--"
 
         file = open(exportPath + "/" + vendor + " " + "Email" + nameAdd,"w+")
-        template = makeEmail(contact, email)
+        yourName = "Bret"
+        template = makeEmail(contact, email, yourName)
         file.write(template)
         file.close()
 
