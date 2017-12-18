@@ -41,7 +41,7 @@ def makeSeperate(vendors, orderbyVendor, modelType, exportPath, runCount):
             email = "--"
 
         file = open(exportPath + "/" + vendor + " " + "Email" + nameAdd,"w+")
-        yourName = "Bret"
+        yourName = "End User's Name"
         template = makeEmail(contact, email, yourName)
         file.write(template)
         file.close()
