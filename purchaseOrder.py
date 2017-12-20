@@ -10,7 +10,7 @@ Please send any available items in the attached spreadsheet. It is also ok to ba
 Thanks!
 %s
 
-%s""" % (contact, email, yourName)
+%s""" % (contact, yourName, email)
 
     return template
 
