@@ -1,5 +1,5 @@
 # ReorderWhat
-Built in consultation with a large ecommerce company, Reorder What is designed to help merchandisers (retail or ecommerce) more intelligently determine which items they should stock and reorder to maximize profits.
+Built in consultation with a large ecommerce company, Reorder What is designed to help retailers more intelligently determine which items they should stock and reorder to maximize profits.
 
 ## For Prospective Customers:
 Reorder What will soon be available as a web application for monthly subscription. To learn more about the platform and its capabilities, join our beta, suggest a feature, or inquire about pricing, please email spence.burleigh at gmail.com.
