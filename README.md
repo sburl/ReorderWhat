@@ -1,7 +1,7 @@
 # ReorderWhat
 Built in consultation with a large ecommerce company, Reorder What is designed to help retailers more intelligently determine which items they should stock and reorder to maximize profits.
 
-<a> Demo Video href = "https://youtu.be/QYndq67zFPg" </a>
+<video src="https://youtu.be/QYndq67zFPg" width="320" height="200" controls preload></video>
 
 ## For Prospective Customers:
 Reorder What will soon be available as a web application for monthly subscription. To learn more about the platform and its capabilities, join our beta, suggest a feature, or inquire about pricing, please email spence.burleigh at gmail.com.
